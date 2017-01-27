@@ -64,12 +64,12 @@
 			children = (
 				3F2843AE1E3A05B8001E8ED3 /* SwiftyJSON.swift */,
 				3F2843AF1E3A05B8001E8ED3 /* QuestionsImerirApp.json */,
-				3F2843B01E3A05B8001E8ED3 /* AppDelegate.swift */,
 				3F2843B11E3A05B8001E8ED3 /* QuestionsQuiz.swift */,
+				3F2843B61E3A05B8001E8ED3 /* ProfilJoueur.swift */,
+				3F2843B01E3A05B8001E8ED3 /* AppDelegate.swift */,
 				3F2843B21E3A05B8001E8ED3 /* ViewController.swift */,
 				3F2843B41E3A05B8001E8ED3 /* Main.storyboard */,
 				3F2843B51E3A05B8001E8ED3 /* Assets.xcassets */,
-				3F2843B61E3A05B8001E8ED3 /* ProfilJoueur.swift */,
 				3FA784271E3693AC003C6FB8 /* LaunchScreen.storyboard */,
 				3FA7842A1E3693AC003C6FB8 /* Info.plist */,
 			);
