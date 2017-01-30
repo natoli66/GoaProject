@@ -15,6 +15,9 @@
 		3F2843BC1E3A05B8001E8ED3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F2843B41E3A05B8001E8ED3 /* Main.storyboard */; };
 		3F2843BD1E3A05B8001E8ED3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F2843B51E3A05B8001E8ED3 /* Assets.xcassets */; };
 		3F2843BE1E3A05B8001E8ED3 /* ProfilJoueur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2843B61E3A05B8001E8ED3 /* ProfilJoueur.swift */; };
+		3F2843C31E3F8258001E8ED3 /* OutletExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2843C21E3F8258001E8ED3 /* OutletExtension.swift */; };
+		3F2843C71E3F8926001E8ED3 /* DirecteurEnd.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F2843C61E3F8926001E8ED3 /* DirecteurEnd.gif */; };
+		3F2843C91E3F9D10001E8ED3 /* www.GIFCreator.me_Y4VSXn.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3F2843C81E3F9D10001E8ED3 /* www.GIFCreator.me_Y4VSXn.gif */; };
 		3FA784291E3693AC003C6FB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA784271E3693AC003C6FB8 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +30,9 @@
 		3F2843B31E3A05B8001E8ED3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F2843B51E3A05B8001E8ED3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../Xcode/ImerirApp/ImerirApp/Assets.xcassets; sourceTree = "<group>"; };
 		3F2843B61E3A05B8001E8ED3 /* ProfilJoueur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ProfilJoueur.swift; path = ../../Xcode/ImerirApp/ImerirApp/ProfilJoueur.swift; sourceTree = "<group>"; };
+		3F2843C21E3F8258001E8ED3 /* OutletExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutletExtension.swift; sourceTree = "<group>"; };
+		3F2843C61E3F8926001E8ED3 /* DirecteurEnd.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = DirecteurEnd.gif; path = ../../../../../Downloads/DirecteurEnd.gif; sourceTree = "<group>"; };
+		3F2843C81E3F9D10001E8ED3 /* www.GIFCreator.me_Y4VSXn.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = www.GIFCreator.me_Y4VSXn.gif; path = ../../../../../Downloads/www.GIFCreator.me_Y4VSXn.gif; sourceTree = "<group>"; };
 		3FA7841B1E3693AC003C6FB8 /* GoaProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoaProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA784281E3693AC003C6FB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FA7842A1E3693AC003C6FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,6 +49,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F2843C11E3F800C001E8ED3 /* Picture/gif */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Picture/gif;
+			sourceTree = "<group>";
+		};
 		3FA784121E3693AC003C6FB8 = {
 			isa = PBXGroup;
 			children = (
@@ -62,11 +75,15 @@
 		3FA7841D1E3693AC003C6FB8 /* GoaProject */ = {
 			isa = PBXGroup;
 			children = (
+				3F2843C11E3F800C001E8ED3 /* Picture/gif */,
 				3F2843AE1E3A05B8001E8ED3 /* SwiftyJSON.swift */,
 				3F2843AF1E3A05B8001E8ED3 /* QuestionsImerirApp.json */,
 				3F2843B11E3A05B8001E8ED3 /* QuestionsQuiz.swift */,
 				3F2843B61E3A05B8001E8ED3 /* ProfilJoueur.swift */,
+				3F2843C61E3F8926001E8ED3 /* DirecteurEnd.gif */,
+				3F2843C81E3F9D10001E8ED3 /* www.GIFCreator.me_Y4VSXn.gif */,
 				3F2843B01E3A05B8001E8ED3 /* AppDelegate.swift */,
+				3F2843C21E3F8258001E8ED3 /* OutletExtension.swift */,
 				3F2843B21E3A05B8001E8ED3 /* ViewController.swift */,
 				3F2843B41E3A05B8001E8ED3 /* Main.storyboard */,
 				3F2843B51E3A05B8001E8ED3 /* Assets.xcassets */,
@@ -136,7 +153,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F2843C71E3F8926001E8ED3 /* DirecteurEnd.gif in Resources */,
 				3FA784291E3693AC003C6FB8 /* LaunchScreen.storyboard in Resources */,
+				3F2843C91E3F9D10001E8ED3 /* www.GIFCreator.me_Y4VSXn.gif in Resources */,
 				3F2843BC1E3A05B8001E8ED3 /* Main.storyboard in Resources */,
 				3F2843BD1E3A05B8001E8ED3 /* Assets.xcassets in Resources */,
 				3F2843B81E3A05B8001E8ED3 /* QuestionsImerirApp.json in Resources */,
@@ -152,6 +171,7 @@
 			files = (
 				3F2843BB1E3A05B8001E8ED3 /* ViewController.swift in Sources */,
 				3F2843BA1E3A05B8001E8ED3 /* QuestionsQuiz.swift in Sources */,
+				3F2843C31E3F8258001E8ED3 /* OutletExtension.swift in Sources */,
 				3F2843B91E3A05B8001E8ED3 /* AppDelegate.swift in Sources */,
 				3F2843B71E3A05B8001E8ED3 /* SwiftyJSON.swift in Sources */,
 				3F2843BE1E3A05B8001E8ED3 /* ProfilJoueur.swift in Sources */,
