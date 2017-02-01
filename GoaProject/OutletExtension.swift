@@ -1,6 +1,10 @@
 import UIKit
 import ImageIO
 
+//Fichier regroupant les extensions des éléments. 
+//Permet d'importer des gifs ou de modifier la taille de police des éléments
+//selon la taille de l'écran utilisé
+
 extension UIImageView {
     
     public func loadGif(name: String) {
@@ -11,7 +15,6 @@ extension UIImageView {
             }
         }
     }
-    
 }
 
 extension UILabel {
